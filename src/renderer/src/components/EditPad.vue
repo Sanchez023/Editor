@@ -1,3 +1,7 @@
+<script setup>
+    import Monaco from './editPad/Editor-monaco.vue'
+</script>
 <template>
-    Editor
+    
+    <Monaco />
 </template>

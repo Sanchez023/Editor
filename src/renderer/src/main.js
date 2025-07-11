@@ -1,4 +1,3 @@
-
 import { createApp } from 'vue'
 import './assets/main.css'
 // Vuetify
@@ -14,9 +13,9 @@ import App from './App.vue'
 const vuetify = createVuetify({
   components,
   directives,
-    icons: {
-    iconfont: 'mdi', // 默认值（Material Design Icons）
-  },
+  icons: {
+    iconfont: 'mdi' // 默认值（Material Design Icons）
+  }
 })
 
 createApp(App).use(vuetify).use(router).mount('#app')

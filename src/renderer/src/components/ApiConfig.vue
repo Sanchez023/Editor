@@ -1,3 +1,1 @@
-<template>
-    ApiConfig
-</template>
+<template>ApiConfig</template>
